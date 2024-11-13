@@ -23,7 +23,7 @@
           v-if="breakpoint.mdAndUp"
           className="cursor-pointer p-3"
           target="_blank"
-          href="https://github.com/franciscobmacedo/remotefreelancept"
+          href="https://github.com/igorfp25/remotefreelancept"
         >
           <img src="@/assets/github-mark.svg" class="h-7" />
         </a>
