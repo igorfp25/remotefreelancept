@@ -7,7 +7,7 @@ export const formatNumber = (num: string) => {
 };
 
 export const spacedNumber = (num: number, decimalPlaces = 0) => {
-  if (num === null) return "";
+  if (num === null || num === undefined) return "";
   return formatNumber(num.toFixed(decimalPlaces));
 };
 
