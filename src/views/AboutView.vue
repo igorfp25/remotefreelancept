@@ -14,7 +14,7 @@
         >
         <a
           target="_blank"
-          href="https://github.com/franciscobmacedo/remotefreelancept/"
+          href="https://github.com/igorfp25/remotefreelancept"
           class="hover:text-neutral-600 hover:decoration-neutral-600 p-3 b-3 underline underline-offset-4"
           >contribute</a
         >
