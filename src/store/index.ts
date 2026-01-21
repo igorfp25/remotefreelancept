@@ -266,7 +266,7 @@ const useTaxesStore = defineStore({
         (taxRank: TaxRank, index: number) => {
           const isLastRank =
             index === this.taxRanks[this.currentTaxRankYear].length - 1;
-          const isBiggerThanMin = taxRank.min < this.taxableIncome;
+          const isBiggerThanMin = taxRank.min <= this.taxableIncome;
           const isSmallerThanMax = taxRank.max >= this.taxableIncome;
 
           if (isLastRank && isBiggerThanMin) {
